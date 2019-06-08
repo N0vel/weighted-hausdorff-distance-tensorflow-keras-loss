@@ -71,4 +71,4 @@ def Weighted_Hausdorff_loss(y_true, y_pred):
     terms_1 = tf.Print(tf.reduce_mean(terms_1), [tf.reduce_mean(terms_1)], "term 1")
     terms_2 = tf.Print(tf.reduce_mean(terms_2), [tf.reduce_mean(terms_2)], "term 2")
     res = terms_1 + terms_2
-    return res / 100. 
+    return res
